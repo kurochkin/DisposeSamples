@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CachingCollections", "CachingCollections\CachingCollections.csproj", "{316DF29E-76AA-4E5A-BCE4-ACD107B32FDB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisposableImplementations", "DisposableImplementations\DisposableImplementations.csproj", "{699FA50D-492D-4A13-9A45-BA5C9FDDB6FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{316DF29E-76AA-4E5A-BCE4-ACD107B32FDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{316DF29E-76AA-4E5A-BCE4-ACD107B32FDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{316DF29E-76AA-4E5A-BCE4-ACD107B32FDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{699FA50D-492D-4A13-9A45-BA5C9FDDB6FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{699FA50D-492D-4A13-9A45-BA5C9FDDB6FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{699FA50D-492D-4A13-9A45-BA5C9FDDB6FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{699FA50D-492D-4A13-9A45-BA5C9FDDB6FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
-using CachingCollections;
 
-namespace ConsoleApplication17
+namespace CachingCollections
 {
     class Program
     {
@@ -36,7 +35,7 @@ namespace ConsoleApplication17
 
         public void Dispose()
         {
-            _bigArray = null; //важно удалить ссылку на массив, иначе после сборки мусора память не освободится
+            _bigArray = null; //важно удалить ссылку на массив, иначе после сборки мусора память не освободится (проверено экспериментально)
             Console.WriteLine("CachedItem dispose called;");
         }
     }

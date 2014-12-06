@@ -41,8 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MsdnDisposableImplementation.cs" />
+    <Compile Include="MsdnDisposableImplementationFinalizer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Samples\WindowStationHandle.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

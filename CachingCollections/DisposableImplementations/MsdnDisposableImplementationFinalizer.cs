@@ -1,13 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DisposableImplementations
 {
 
-   public class MsdnDisposableImplementation : IDisposable
+   public class MsdnDisposableImplementationFinalizer : IDisposable
     {
         // Flag: Has Dispose already been called?
         bool disposed = false;
@@ -36,7 +32,7 @@ namespace DisposableImplementations
             disposed = true;
         }
 
-        ~MsdnDisposableImplementation()
+        ~MsdnDisposableImplementationFinalizer()
         {
             Dispose(false);
         }

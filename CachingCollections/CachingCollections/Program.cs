@@ -24,7 +24,7 @@ namespace CachingCollections
         }
     }
 
-    class CachedItem : IDisposable
+    class CachedItem// : IDisposable
     {
 
         public CachedItem()
@@ -36,10 +36,10 @@ namespace CachingCollections
         private byte[] _bigArray;
 
 
-        public void Dispose()
-        {
-            _bigArray = null; //важно удалить ссылку на массив, иначе после сборки мусора память не освободится (проверено экспериментально)
-            Console.WriteLine("CachedItem dispose called.");
-        }
+        //public void Dispose()
+        //{
+        //    _bigArray = null; //важно удалить ссылку на массив, иначе после сборки мусора память не освободится (проверено экспериментально)
+        //    Console.WriteLine("CachedItem dispose called.");
+        //}
     }
 }

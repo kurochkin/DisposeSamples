@@ -22,8 +22,7 @@ namespace CachingCollections
             var disposable = arg.CacheItem.Value as IDisposable;
             if (disposable != null)
                 disposable.Dispose();
-
-        
+            
             Task.Factory.StartNew(() =>
             {
                 Thread.Sleep(500);

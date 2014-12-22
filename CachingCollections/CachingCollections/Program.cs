@@ -16,6 +16,7 @@ namespace CachingCollections
             {
                 var cachedItem = new CachedItem();
                 RuntimeCache.Add("cachedItem", cachedItem);
+                CachedItem.Item++;
                 Console.WriteLine("Added to cache");
                 Console.WriteLine("Total Memory: {0:n0} bytes", GC.GetTotalMemory(false));
             });
@@ -26,6 +27,7 @@ namespace CachingCollections
 
     class CachedItem// : IDisposable
     {
+        internal static int Item = 10;
 
         public CachedItem()
         {

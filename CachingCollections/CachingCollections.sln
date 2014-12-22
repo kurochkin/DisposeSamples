@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CachingCollections", "Cachi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisposableImplementations", "DisposableImplementations\DisposableImplementations.csproj", "{699FA50D-492D-4A13-9A45-BA5C9FDDB6FC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskDisposing", "TaskDisposing\TaskDisposing.csproj", "{B940989A-15C9-4BAF-85FB-5AF00B8862E2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{699FA50D-492D-4A13-9A45-BA5C9FDDB6FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{699FA50D-492D-4A13-9A45-BA5C9FDDB6FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{699FA50D-492D-4A13-9A45-BA5C9FDDB6FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B940989A-15C9-4BAF-85FB-5AF00B8862E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B940989A-15C9-4BAF-85FB-5AF00B8862E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B940989A-15C9-4BAF-85FB-5AF00B8862E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B940989A-15C9-4BAF-85FB-5AF00B8862E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
